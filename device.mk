@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/nxp/nfc \
+    vendor/nxp/secure_element \
     vendor/qcom/opensource/usb/etc
 
 # A/B
