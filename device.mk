@@ -26,7 +26,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO (pixys)
 PRODUCT_PACKAGES += \
     PixysFrameworksSpacewar \
-    PixysSystemUISpacewar
+    PixysSystemUISpacewar \
+    BoostFrameworkOverlay
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -384,6 +385,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpsi.vendor \
     libtflite
+
+# Perf Jars
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
 
 # IRQ balance config
 PRODUCT_COPY_FILES += \
