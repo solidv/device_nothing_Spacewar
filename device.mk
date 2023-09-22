@@ -159,7 +159,7 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener \
     sound_trigger.primary.lahaina \
-    libspatialaudio 
+    libspatialaudio
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8350/audio
 
@@ -436,7 +436,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors@2.1-service.phone1-multihal \
     android.hardware.sensors@2.0-ScopedWakelock \
     libsensorndkbridge \
     sensors.nothing
